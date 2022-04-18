@@ -13,7 +13,7 @@ int (*driver(char *format))(char *format, va_list)
 {
 int i;
 /**
- * selector - selector for type of fun.
+ * struct - selector for type of fun.
  * @format: string.
  * Description: the function loops through the structs
  * selector[] ment of the struct.
