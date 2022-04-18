@@ -12,7 +12,15 @@
 int (*driver(char *format))(char *format, va_list)
 {
 int i;
-/* Declare the struct */
+
+/**
+* struct selector - Short description
+* @a: First member
+* @b: Second member
+* @c: Third member
+*
+* Description: Longer description
+*/
 structype selector[] = {
 {"%c", printc},
 {"%s", printstr},
