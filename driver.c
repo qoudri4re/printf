@@ -13,7 +13,7 @@ int (*driver(char *format))(char *format, va_list)
 {
 int i;
 /**
- * selector[] - Short description
+ * struct selector[] - Short description
  *
  * Description: Longer description
  */
