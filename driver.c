@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * struct selector driver - selector for type of fun.
+ * driver - selector for type of fun.
  * @format: string.
  * Description: the function loops through the structs
  * selector[] ment of the struct.
@@ -12,7 +12,11 @@
 int (*driver(char *format))(char *format, va_list)
 {
 int i;
-
+/**
+ * selector[] - Short description
+ *
+ * Description: Longer description
+ */
 structype selector[] = {
 {"%c", printc},
 {"%s", printstr},
