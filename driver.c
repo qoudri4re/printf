@@ -12,14 +12,7 @@
 int (*driver(char *format))(char *format, va_list)
 {
 int i;
-/**
- * struct - selector for type of fun.
- * @format: string.
- * Description: the function loops through the structs
- * selector[] ment of the struct.
- * Return: a pointer
- * structype selector - Struct
- */
+/* Declare the struct */
 structype selector[] = {
 {"%c", printc},
 {"%s", printstr},
