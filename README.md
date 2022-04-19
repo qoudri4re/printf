@@ -3,7 +3,7 @@ The project consists of normal functions, derived functions a man page and a REA
 
 This produces output according to a format specifiers,as shown below.
 
-    _printf("Length:[%d, %i]\n", len, len);
+       _printf("Length:[%d, %i]\n", len, len);
 
 
 	printf("Length:[%d, %i]\n", len2, len2);
